@@ -1,12 +1,12 @@
-current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/sinatra-view-and-controller-readme-walkthrough-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
-/Users/Moniet97/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190603-45091-g1q2vb.rb extconf.rb
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/basic-sinatra-forms-lab-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
+/Users/Moniet97/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190603-59408-1sc8fm8.rb extconf.rb
 checking for main() in -lc... yes
 creating Makefile
 
-current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/sinatra-view-and-controller-readme-walkthrough-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/basic-sinatra-forms-lab-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
 make "DESTDIR=" clean
 
-current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/sinatra-view-and-controller-readme-walkthrough-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/basic-sinatra-forms-lab-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
 make "DESTDIR="
 compiling parser.c
 parser.c:31:18: warning: unused variable 'http_parser_en_main' [-Wunused-const-variable]
@@ -44,6 +44,6 @@ thin.c:374:10: warning: implicit declaration of function 'thin_http_parser_is_fi
 9 warnings generated.
 linking shared-object thin_parser.bundle
 
-current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-1/sinatra-view-and-controller-readme-walkthrough-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/basic-sinatra-forms-lab-london-web-051319/vendor/bundle/gems/thin-1.7.2/ext/thin_parser
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 thin_parser.bundle ./.gem.20190603-45091-81sbhp
+/usr/local/bin/ginstall -c -m 0755 thin_parser.bundle ./.gem.20190603-59408-creujv
