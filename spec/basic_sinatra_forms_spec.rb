@@ -40,7 +40,6 @@ describe App do
 
       fill_in(:coach, :with => "Walter")
       click_button "Submit"
-
       expect(page).to have_text("Coach: Walter")
     end
 
