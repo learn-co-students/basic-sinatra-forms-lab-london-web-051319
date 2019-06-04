@@ -1,3 +1,5 @@
+require "pry"
+
 describe App do
 
   describe 'GET /newteam' do
@@ -37,10 +39,9 @@ describe App do
 
     it "displays the coach's name in the browser" do
       visit '/newteam'
-
+      
       fill_in(:coach, :with => "Walter")
       click_button "Submit"
-
       expect(page).to have_text("Coach: Walter")
     end
 
